@@ -1,0 +1,23 @@
+mode: set
+github.com/Prateek766/bookings/internal/render/render.go:22.40,24.2 1 1
+github.com/Prateek766/bookings/internal/render/render.go:26.84,32.2 5 1
+github.com/Prateek766/bookings/internal/render/render.go:34.105,36.18 2 1
+github.com/Prateek766/bookings/internal/render/render.go:36.18,38.3 1 0
+github.com/Prateek766/bookings/internal/render/render.go:38.8,40.3 1 1
+github.com/Prateek766/bookings/internal/render/render.go:42.2,43.9 2 1
+github.com/Prateek766/bookings/internal/render/render.go:43.9,45.3 1 1
+github.com/Prateek766/bookings/internal/render/render.go:47.2,53.16 5 1
+github.com/Prateek766/bookings/internal/render/render.go:53.16,56.3 2 0
+github.com/Prateek766/bookings/internal/render/render.go:57.2,57.12 1 1
+github.com/Prateek766/bookings/internal/render/render.go:61.67,65.16 3 1
+github.com/Prateek766/bookings/internal/render/render.go:65.16,67.3 1 0
+github.com/Prateek766/bookings/internal/render/render.go:69.2,69.29 1 1
+github.com/Prateek766/bookings/internal/render/render.go:69.29,73.17 3 1
+github.com/Prateek766/bookings/internal/render/render.go:73.17,75.4 1 0
+github.com/Prateek766/bookings/internal/render/render.go:77.3,78.17 2 1
+github.com/Prateek766/bookings/internal/render/render.go:78.17,80.4 1 0
+github.com/Prateek766/bookings/internal/render/render.go:82.3,82.23 1 1
+github.com/Prateek766/bookings/internal/render/render.go:82.23,84.18 2 1
+github.com/Prateek766/bookings/internal/render/render.go:84.18,86.5 1 0
+github.com/Prateek766/bookings/internal/render/render.go:88.3,88.21 1 1
+github.com/Prateek766/bookings/internal/render/render.go:90.2,90.21 1 1

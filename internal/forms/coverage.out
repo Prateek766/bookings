@@ -1,0 +1,19 @@
+mode: set
+github.com/Prateek766/bookings/internal/forms/errors.go:5.44,7.2 1 1
+github.com/Prateek766/bookings/internal/forms/errors.go:9.42,11.18 2 1
+github.com/Prateek766/bookings/internal/forms/errors.go:11.18,13.3 1 1
+github.com/Prateek766/bookings/internal/forms/errors.go:14.2,14.14 1 1
+github.com/Prateek766/bookings/internal/forms/forms.go:16.33,21.2 1 1
+github.com/Prateek766/bookings/internal/forms/forms.go:23.29,25.2 1 1
+github.com/Prateek766/bookings/internal/forms/forms.go:27.43,28.31 1 1
+github.com/Prateek766/bookings/internal/forms/forms.go:28.31,31.37 2 1
+github.com/Prateek766/bookings/internal/forms/forms.go:31.37,33.4 1 1
+github.com/Prateek766/bookings/internal/forms/forms.go:36.57,38.21 2 1
+github.com/Prateek766/bookings/internal/forms/forms.go:38.21,41.3 2 1
+github.com/Prateek766/bookings/internal/forms/forms.go:42.2,42.13 1 1
+github.com/Prateek766/bookings/internal/forms/forms.go:45.39,48.13 2 1
+github.com/Prateek766/bookings/internal/forms/forms.go:48.13,50.3 1 1
+github.com/Prateek766/bookings/internal/forms/forms.go:51.2,51.13 1 1
+github.com/Prateek766/bookings/internal/forms/forms.go:54.43,55.40 1 1
+github.com/Prateek766/bookings/internal/forms/forms.go:55.40,58.3 2 1
+github.com/Prateek766/bookings/internal/forms/forms.go:59.2,59.13 1 1

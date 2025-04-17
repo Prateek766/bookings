@@ -30,8 +30,8 @@ func NewHandlers(r *Repository) {
 }
 
 func (m *Repository) Home(w http.ResponseWriter, r *http.Request) {
-	remoteIP := r.RemoteAddr
-	m.App.Session.Put(r.Context(), "remote_ip", remoteIP)
+	// remoteIP := r.RemoteAddr
+	// m.App.Session.Put(r.Context(), "remote_ip", remoteIP)
 
 	render.RenderTemplate(w, r, "home.page.tmpl", &models.TemplateData{})
 }
@@ -66,8 +66,8 @@ func (m *Repository) PostReservation(w http.ResponseWriter, r *http.Request) {
 	}
 	form := forms.New(r.PostForm)
 	form.Required("first_name", "last_name", "email")
-	form.MinLength("first_name", 3, r)
-	form.IsEmail("email", r)
+	form.MinLength("first_name", 3)
+	form.IsEmail("email")
 
 	if !form.Valid() {
 		data := make(map[string]interface{})
@@ -101,7 +101,6 @@ func (m *Repository) PostAvailability(w http.ResponseWriter, r *http.Request) {
 	end := r.Form.Get("end")
 
 	w.Write([]byte(fmt.Sprintf("start date is %s and end is %s", start, end)))
-	// w.Write([]byte("Posted to search availability"))
 }
 
 type jsonResponse struct {
@@ -110,7 +109,6 @@ type jsonResponse struct {
 }
 
 func (m *Repository) AvailabilityJSON(w http.ResponseWriter, r *http.Request) {
-	w.Header().Set("Content-Type", "application/json")
 	resp := jsonResponse{
 		OK:      true,
 		Message: "Availability JSON",
@@ -120,6 +118,7 @@ func (m *Repository) AvailabilityJSON(w http.ResponseWriter, r *http.Request) {
 	if err != nil {
 		log.Println(err)
 	}
+	w.Header().Set("Content-Type", "application/json")
 	w.Write(out)
 }
 
